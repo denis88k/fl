@@ -16,57 +16,7 @@
 <body>
 
   <div class="wrapper">
-    <header class="header">
-	<div class="container">
-		<div class="header__inner">
-
-			<div class="header__logo">
-				<picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип Рекон"></picture>
-			</div>
-
-			<div class="header__nav">
-
-				<ul class="nav-links">
-
-					<li class="nav__item">
-						<a class="nav__link" href="#">Главная</a>
-					</li>
-
-					<li class="nav__item">
-						<a class="nav__link nav-drop" href="#" id="nav__link-active">Портфолио</a>
-						<ul class="drop-menu">
-							<li><a href="#">Градостроительство</a></li>
-							<li><a href="#">Гражданское строительство</a></li>
-						</ul>
-					</li>
-
-					<li class="nav__item">
-						<a class="nav__link" href="#">Контакты</a>
-					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="#">Наша команда</a>
-					</li>
-					<li class="nav__item">
-						<a class="nav__link" href="#">О нас</a>
-					</li>
-
-				</ul>
-
-				<div class="header__tel">
-					8(846)310-82-76
-				</div>
-
-				<div class="menu__btn">
-					<span></span>
-					<span></span>
-					<span></span>
-				</div>
-
-			</div>
-
-		</div>
-	</div>
-</header>
+    @include('_header.html')
     <main class="main">
 
       <section class="team">
@@ -75,57 +25,57 @@
           <ul class="team__list">
 
             <li class="team__item">
-              <picture><source srcset="img/team/1.webp" type="image/webp"><img src="img/team/1.jpg" alt="Директор ГАЛАХОВ С."></picture>
+              <img src="img/team/1.jpg" alt="Директор ГАЛАХОВ С.">
               <h1 class="team__title title">ГАЛАХОВ С.</h1>
               <p>Директор</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/2.webp" type="image/webp"><img src="img/team/2.jpg" alt="Главный инженер ПРИВАЛОВ С."></picture>
+              <img src="img/team/2.jpg" alt="Главный инженер ПРИВАЛОВ С.">
               <h1 class="team__title title">ПРИВАЛОВ С.</h1>
               <p>Главный инженер</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/3.webp" type="image/webp"><img src="img/team/3.jpg" alt="Главный специалист БЕКЕТОВА Л."></picture>
+              <img src="img/team/3.jpg" alt="Главный специалист БЕКЕТОВА Л.">
               <h1 class="team__title title">БЕКЕТОВА Л.</h1>
               <p>Главный специалист</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/4.webp" type="image/webp"><img src="img/team/4.jpg" alt="Архитектор КОНСТАНТИНОВА Е."></picture>
+              <img src="img/team/4.jpg" alt="Архитектор КОНСТАНТИНОВА Е.">
               <h1 class="team__title title">КОНСТАНТИНОВА Е.</h1>
               <p>Архитектор</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/5.webp" type="image/webp"><img src="img/team/5.jpg" alt="Бухгалтер УТОПОВА Л."></picture>
+              <img src="img/team/5.jpg" alt="Бухгалтер УТОПОВА Л.">
               <h1 class="team__title title">УТОПОВА Л.</h1>
               <p>Бухгалтер</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/6.webp" type="image/webp"><img src="img/team/6.jpg" alt="Отдел кадров ОЗЕРНОВА Ю."></picture>
+              <img src="img/team/6.jpg" alt="Отдел кадров ОЗЕРНОВА Ю.">
               <h1 class="team__title title">ОЗЕРНОВА Ю.</h1>
               <p>Отдел кадров</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/7.webp" type="image/webp"><img src="img/team/7.jpg" alt="Инженер КОСАРЕВА Ж."></picture>
+              <img src="img/team/7.jpg" alt="Инженер КОСАРЕВА Ж.">
               <h1 class="team__title title">КОСАРЕВА Ж.</h1>
               <p>Инженер</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/8.webp" type="image/webp"><img src="img/team/8.jpg" alt="Инженер ФИЛИНА В."></picture>
+              <img src="img/team/8.jpg" alt="Инженер ФИЛИНА В.">
               <h1 class="team__title title">ФИЛИНА В.</h1>
               <p>Инженер</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/9.webp" type="image/webp"><img src="img/team/9.jpg" alt="Архитектор ДРАЧКОВА Е."></picture>
+              <img src="img/team/9.jpg" alt="Архитектор ДРАЧКОВА Е.">
               <h1 class="team__title title">ДРАЧКОВА Е.</h1>
               <p>Архитектор</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/10.webp" type="image/webp"><img src="img/team/10.jpg" alt="Юрист ВЕЛИКАНОВ А."></picture>
+              <img src="img/team/10.jpg" alt="Юрист ВЕЛИКАНОВ А.">
               <h1 class="team__title title">ВЕЛИКАНОВ А.</h1>
               <p>Юрист</p>
             </li>
             <li class="team__item">
-              <picture><source srcset="img/team/11.webp" type="image/webp"><img src="img/team/11.jpg" alt="Архитектор БОРИСОВ А."></picture>
+              <img src="img/team/11.jpg" alt="Архитектор БОРИСОВ А.">
               <h1 class="team__title title">БОРИСОВ А.</h1>
               <p>Архитектор</p>
             </li>
@@ -136,20 +86,11 @@
       </section>
     </main>
 
-    <footer class="footer">
-	<div class="container">
-		<div class="footer__inner">
-			<a class="mail" href="mailto:ooopmrecon@gmail.com">ooopmrecon@gmail.com</a>
-			<a class="tel" href="tel:88463108276">8(846)310-82-76</a>
-			<address class="address"><span>443010</span> Россия, г. Самара, ул. Чапаевская, 144</address>
-		</div>
-	</div>
-</footer>
+    @include('_footer.html')
 
   </div>
 
-  <script src="js/vendors.min.js"></script>
-<script src="js/app.min.js"></script>
+  @include('_script.html')
 
 </body>
 
