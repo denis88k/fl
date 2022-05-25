@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Контакты | Проектная мастерская "Рекон"</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400&family=Roboto&display=swap"
+      rel="stylesheet">
+   <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <header class="header">
+	<div class="container">
+		<div class="header__inner">
+
+			<a class="header__logo" href="#">
+ <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип Рекон"></picture> 
+			</a>
+
+			<div class="header__nav">
+
+				<ul class="nav-links">
+
+					<li class="nav__item">
+						<a class="nav__link" href="index.html">Главная</a>
+					</li>
+
+					<li class="nav__item">
+						<a class="nav__link nav-drop" href="portfolio.html" id="nav__link-active">Портфолио</a>
+						<ul class="drop-menu">
+							<li><a href="gradoStroit.html">Градостроительство</a></li>
+							<li><a href="grajdStroit.html">Гражданское строительство</a></li>
+						</ul>
+					</li>
+
+					<li class="nav__item">
+						<a class="nav__link" href="contacts.html">Контакты</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="team.html">Наша команда</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="about.html">О нас</a>
+					</li>
+
+				</ul>
+
+				<div class="header__tel">
+					8(846)310-82-76
+				</div>
+
+				<div class="menu__btn">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</header>
+      <main class="main">
+         <section class="contacts" data-aos="slide-left" data-aos-duration="500" data-aos-easing="ease-in-out">
+            <div class="_container">
+               <div class="contacts__inner">
+
+                  <h1 class="contacts__title title" data-aos="fade-in" data-aos-duration="1200" data-aos-delay="500"
+                     data-aos-easing="ease-out">
+                     НАПИШИТЕ НАМ
+                  </h1>
+
+                  <form class="form" action="#">
+
+                     <div class="form__list">
+                        <label class="form__item">
+                           <input class="form__input input-name" type="name" name="Имя" placeholder="Имя">
+                        </label>
+                        <label class="form__item">
+                           <input class="form__input input-email" type="email" name="Эл. почта" placeholder="Эл. почта">
+                        </label>
+                     </div>
+
+                     <label class="form__item">
+                        <input class="form__input input-text" type="text" name="text" placeholder="Тема">
+                     </label>
+
+                     <textarea class="textarea" name="Сообщение" placeholder="Добавьте сообщение..."></textarea>
+
+                     <button class="form__item-btn">Отправить</button>
+
+                     <p class="success">
+                        Отправлено. Спасибо!
+                     </p>
+
+                  </form>
+
+               </div>
+            </div>
+            <div class="contacts__map">
+               <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2390.4958276271404!2d50.09430961597218!3d53.19102339403485!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x41661e90dbf6bae7%3A0x2ee66ae55a886ce8!2z0J7QntCeICLQn9CcItCg0JXQmtCe0J0iINCQ0YDRhdC40YLQtdC60YLRg9GA0L3Qvi3Qv9GA0L7QtdC60YLQvdCw0Y8g0LzQsNGB0YLQtdGA0YHQutCw0Y8!5e0!3m2!1sru!2sru!4v1652987652323!5m2!1sru!2sru"
+                  width="100%" height="410" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+         </section>
+
+      </main>
+
+      <footer class="footer">
+	<div class="container">
+		<div class="footer__inner">
+			<a class="mail" href="mailto:ooopmrecon@gmail.com">ooopmrecon@gmail.com</a>
+			<a class="tel" href="tel:88463108276">8(846)310-82-76</a>
+			<address class="address"><span>443010</span> Россия, г. Самара, ул. Чапаевская, 144</address>
+
+		</div>
+	</div>
+	<p class="copyright">Copyright © 2022 by Recon.</p>
+</footer>
+
+   </div>
+
+   <script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+
+</body>
+
+</html>
